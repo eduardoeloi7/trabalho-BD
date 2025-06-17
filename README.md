@@ -1,8 +1,3 @@
-PASSO A PASSO PARA UTILIZAÇÂO DO CÓDIGO:
-
-1- CRIE O BANCO DE DADOS USANDO O ARQUIVO SQL (BD loja trabalho.sql)
-2- ACESSE A PASTA "trabalhoBD" E CRIE OS ARQUIVOS .php COM SEUS RESPECTIVOS NOMES E COLE OS CÓDIGOS
-3 - ACESSE "http://localhost/CRUD/trabalhoBD/" PELO NAVEGADOR
 
 EXPLICAÇÃO DO PROJETO:
 
@@ -83,11 +78,16 @@ preco       | DECIMAL
 imagem      | VARCHAR(255) 
 id_vendedor | INT (FK)     
 
----
 
-## ▶️ Como Executar o Projeto
+Como Executar o Projeto:
 
 1. Clone o repositório:
    bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
+
+OU: 
+1- CRIE O BANCO DE DADOS USANDO O ARQUIVO SQL (BD loja trabalho.sql)
+2- ACESSE A PASTA "trabalhoBD" E CRIE OS ARQUIVOS .php COM SEUS RESPECTIVOS NOMES E COLE OS CÓDIGOS
+3 - ACESSE "http://localhost/CRUD/trabalhoBD/" PELO NAVEGADOR
+
 
