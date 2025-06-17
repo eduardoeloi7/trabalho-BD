@@ -1,0 +1,28 @@
+CREATE DATABASE IF NOT EXISTS loja_skins;
+
+USE loja_skins;
+
+
+CREATE TABLE IF NOT EXISTS Cliente (
+    id_cliente INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100),
+    email_cliente VARCHAR(100) UNIQUE
+)AUTO_INCREMENT= 50;
+
+CREATE TABLE IF NOT EXISTS Vendedor (
+    id_vendedor INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100),
+    email VARCHAR(100) UNIQUE
+)AUTO_INCREMENT= 50;
+
+CREATE TABLE IF NOT EXISTS Produto (
+    id_produto INT PRIMARY KEY AUTO_INCREMENT,
+	nome VARCHAR(100),
+	tipo VARCHAR(50),
+	preco DECIMAL(10, 2),
+	imagem VARCHAR(255),
+	id_vendedor INT,
+	FOREIGN KEY (id_vendedor) REFERENCES Vendedor(id_vendedor)
+)AUTO_INCREMENT= 50;
+
+
