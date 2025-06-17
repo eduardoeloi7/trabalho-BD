@@ -1,1 +1,4 @@
-Código php, coloque a pasta CRUD dentro da pasta htdocs
+PASSO A PASSO PARA UTILIZAÇÂO DO CÓDIGO:
+
+1- CRIE O BANCO DE DADOS USANDO O ARQUIVO SQL (BD loja trabalho.sql)
+2- ACESSE A PASTA "trabalhoBD" e 
